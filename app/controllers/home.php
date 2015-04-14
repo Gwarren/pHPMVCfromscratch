@@ -2,8 +2,18 @@
 
 class Home extends Controller 
 { 
-	public function index()
+
+	public function index($name = '')
 	{
-		echo 'home/index';
+
+		$this->view('home/index', ['name'=> $user->name]); 
+	
+	}
+	public function create($username= '', $email = '') 
+	{
+		User::create([ 
+			'username' => $username, 
+			'email' => $email
+			]);
 	}
 }

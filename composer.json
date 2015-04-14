@@ -1,0 +1,19 @@
+{
+    "name": "gwarren/mvcfromscratch",
+    "description": "A simple MVC skeleton app I built to be more familiar with MVC architecture",
+    "require": {
+        "illuminate/database": "4.2.*"
+    },
+    "autoload": { 
+        "classmap": [
+            "app/models"
+        ]
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Grant Warren",
+            "email": "Gwarren1715@gmail.com"
+        }
+    ]
+}
